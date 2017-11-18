@@ -25,6 +25,7 @@ import android.os.Bundle;
 import android.view.Surface;
 import android.preference.Preference;
 import com.android.settings.R;
+import com.heavens.settings.preferences.Utils;
 
 import com.android.settings.SettingsPreferenceFragment;
 
@@ -33,8 +34,16 @@ public class HeavensSettings extends SettingsPreferenceFragment {
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
+        final String KEY_DEVICE_PART = "device_part";
+        final String KEY_DEVICE_PART_PACKAGE_NAME = "org.omnirom.device";
 
         addPreferencesFromResource(R.xml.heavens_settings);
+
+        // DeviceParts
+        if (!Utils.isPackageInstalled(getActivity(), KEY_DEVICE_PART_PACKAGE_NAME)) {
+            getPreferenceScreen().removePreference(findPreference(KEY_DEVICE_PART));
+        }
+
     }
 
     @Override
