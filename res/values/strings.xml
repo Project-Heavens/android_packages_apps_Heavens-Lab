@@ -20,6 +20,8 @@
     <string name="heavens_dashboard_summary">Go to Heavens now!</string>
 
     <!-- Categories -->
+    <string name="animations_title">Animations</string>
+    <string name="interface_title">Interface</string>
     <string name="button_title">Buttons</string>
     <string name="gestures_title">Gestures</string>
     <string name="lockscreen_title">Lock Screen</string>
