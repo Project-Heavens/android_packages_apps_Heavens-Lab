@@ -55,5 +55,11 @@
             settings:units="" />
 
     </PreferenceCategory>
+    
+        <Preference
+            android:key="themes"
+            android:title="@string/themes_title"
+            android:summary="@string/themes_summary"
+            android:fragment="com.heavens.settings.fragments.HeavensThemes" />
 
 </PreferenceScreen>

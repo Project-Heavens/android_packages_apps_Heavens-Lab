@@ -183,4 +183,10 @@
     <!-- Notification guts kill app button -->
     <string name="notification_guts_kill_app_button_title">Kill app button</string>
     <string name="notification_guts_kill_app_button_summary">Show a kill app button in the notification\'s longpress menu</string>
+
+    <!-- RGG Accent Picker -->
+    <string name="themes_title">Theming</string>
+    <string name="themes_summary">Accent theming</string>
+    <string name="accent_color">Accent picker</string>
+    <string name="accent_summary">System wide accent maker</string>
 </resources>
