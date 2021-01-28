@@ -18,4 +18,11 @@
     android:title="@string/statusbar_title"
     xmlns:settings="http://schemas.android.com/apk/res/com.android.settings">
 
+    <Preference
+	android:key="traffic_settings"
+        android:title="@string/trafficsettings_title"
+        android:summary="@string/trafficsettings_summary"
+        android:fragment="com.heavens.customisation.fragments.TrafficSettings"
+        android:icon="@drawable/ic_settings_traffic" />
+
 </PreferenceScreen>
