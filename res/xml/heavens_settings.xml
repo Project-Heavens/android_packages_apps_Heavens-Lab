@@ -88,4 +88,10 @@
             android:fragment="com.heavens.settings.fragments.MiscSettings"
             android:icon="@drawable/ic_settings_miscs"/>
 
+	<!-- Gaming mode -->
+        <Preference
+            android:key="gaming_category"
+            android:title="@string/gaming_title" 
+            android:fragment="com.heavens.settings.fragments.GamingModeSettings"
+            android:icon="@drawable/ic_settings_gaming"/>
 </PreferenceScreen>
