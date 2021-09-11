@@ -42,4 +42,9 @@
     <string name="hex_hint">#ff000000</string>
     <string name="set">Set</string>
     <string name="color_default">Default</string>
+
+    <!-- Double Tap gestures -->
+    <string name="double_tap_sleep_gesture_title">Double tap to sleep on statusbar</string> 
+    <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
+
 </resources>
