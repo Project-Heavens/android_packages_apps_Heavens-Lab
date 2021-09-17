@@ -37,4 +37,7 @@
     <string name="double_tap_sleep_gesture_title">Double tap to sleep on statusbar</string> 
     <string name="double_tap_sleep_gesture_summary">Double tap on the status bar to put the device to sleep</string>
 
+    <!-- Quick Settings on lockscreen-->
+    <string name="ls_qs_disabled_title">Disable QS on lockscreen</string>
+    <string name="ls_qs_disabled_summary">Disable expanding quick settings on secure lockscreen</string>
 </resources>
