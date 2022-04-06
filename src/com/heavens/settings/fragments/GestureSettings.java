@@ -1,4 +1,4 @@
-package com.streak.settings.fragments;
+package com.heavens.settings.fragments;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -13,11 +13,11 @@ public class GestureSettings extends SettingsPreferenceFragment {
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        addPreferencesFromResource(R.xml.streak_settings_gestures);
+        addPreferencesFromResource(R.xml.heavens_settings_gestures);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.STREAK_SETTINGS;
+        return MetricsProto.MetricsEvent.HEAVENS_SETTINGS;
     }
 }

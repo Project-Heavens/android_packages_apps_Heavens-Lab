@@ -1,6 +1,5 @@
 /*
- * Copyright (C) 2020 The Pure Nexus Project
- * used for Project Streak
+ * Copyright (C) 2022 Project Heavens
  *
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
@@ -15,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.streak.settings;
+package com.heavens.settings;
 
 import com.android.internal.logging.nano.MetricsProto;
 
@@ -29,18 +28,18 @@ import com.android.settings.R;
 
 import com.android.settings.SettingsPreferenceFragment;
 
-public class StreakSettings extends SettingsPreferenceFragment {
+public class HeavensSettings extends SettingsPreferenceFragment {
 
     @Override
     public void onCreate(Bundle icicle) {
         super.onCreate(icicle);
 
-        addPreferencesFromResource(R.xml.streak_settings);
+        addPreferencesFromResource(R.xml.heavens_settings);
     }
 
     @Override
     public int getMetricsCategory() {
-        return MetricsProto.MetricsEvent.STREAK_SETTINGS;
+        return MetricsProto.MetricsEvent.HEAVENS_SETTINGS;
     }
 
     public static void lockCurrentOrientation(Activity activity) {
